@@ -15,7 +15,7 @@ namespace MVCApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page.The application is hosted in github";
 
             return View();
         }
